@@ -9,8 +9,7 @@ const createWindow = () => {
       preload: path.join(__dirname, 'preload.js'),
     },
   });
-
-  win.loadFile('index.html');
+  win.loadURL('https://rm.dahe.cn');
 };
 
 app.whenReady().then(() => {
